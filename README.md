@@ -59,3 +59,18 @@ The server should print the automatically selected batch size, which should be g
 You should now be able to see the folders created by RootPainter (datasets, instructions and projects) inside ~/Desktop/root_painter_sync on your local machine 
 See [lung tutorial](docs/cxr_lung_tutorial.md) for an example of how to use RootPainter to train a model.
 
+
+#### Installing from source/conda
+
+1. Clone the repository:
+    ```
+    git clone https:/github.com/eberrigan/root_painter && cd root_painter
+    ```
+2. Install into a new environment via conda:
+    ```
+    conda env create -f environment.yml
+    ```
+3. Now you can use it after activating the environment with:
+    ```
+    conda activate rootpainter
+    ```
