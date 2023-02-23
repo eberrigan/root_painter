@@ -1,0 +1,19 @@
+name: rootpainter
+
+channels:
+  - default
+  - conda-forge
+  - pytorch
+  - nvidia
+
+dependencies:
+  - python=3.8
+  - pytorch=1.13
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.6
+  - scipy
+  - numpy
+  - pip
+  - pip:
+      - "--editable=."
